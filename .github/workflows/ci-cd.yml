@@ -43,3 +43,7 @@ jobs:
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
+
+        - name: Run tests
+          run: echo "No tests yet. Skipping..."
+
